@@ -5,10 +5,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>website</title>
+    <style>
+        input:focus{
+            font-weight: 70px;
+            color: green;
+            font-size: 50px;
+        }
+        li:nth-child(2n){
+            background-color: hotpink;
+        }
+        a:visited{
+            color: green;
+        }
+        h1::before{
+            content:"hellow bangladesh";
+            color: green;
+            background-color: darkcyan;
+        }
+        .special-effect::after{
+
+            content:"hellow bangladesh";
+            color: green;
+            background-color: darkcyan;
+        }
+        body{
+            counter-reset: section;
+        }
+        p::before{
+            counter-increment: section;
+            content: "crush" counter(section)":";
+        }
+        p::after{
+            content: " ❤️";
+        }
+        .container{
+            background-color: darkorange;
+        }
+        div{
+            height: 100px;
+            width: 100px;
+        }
+        #first{
+            background-color: darkslategrey;
+            position: relative;
+            left: 20px;
+        }
+        #second{
+            background-color: deeppink;
+            position: relative;
+            left: 30px;
+        }
+        #third{
+            background-color: dodgerblue;
+            position: relative;
+            left: 40px;
+            top:10px;
+        }
+    </style>
 </head>
 <body>
     <p>this is my first website my name is samiul islam</p>
     <h1>webdevelopment cource in bangla</h1>
-    <h2>emon is a good boy</h2>
+    <h2 class="special-effect">emon is a good boy</h2>
+    <input name="email" type="text">
+    <input name="name" type="text">
+    
+    <p>psami</p>
+        <p>hami</p>
+        <p>ajhsdk</p>
+        <p>sjndfmk</p>
+        <p>djsfk</p>
+        <p>bndwmf,</p>
+        <p>sndamf,</p>
+        <a href="https://www.facebook.com/samiulislam.693/""> facebook</a>
+
+
+        <section>
+            <h5>learning position</h5>
+        </section>
+        <section class="container">
+            <div id="first"></div>
+            <div id="second"></div>
+            <div id="third"></div>
+
+        </section>
+    
 </body>
 </html>
