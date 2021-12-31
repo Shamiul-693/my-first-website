@@ -1,0 +1,19 @@
+body{
+    font-family: 'Pushster', cursive;
+}
+h1{
+    font-size: 50px;
+    
+}
+.class-highlight{
+    color: darkorchid;
+}
+.half-width{
+    width: 50px;
+    float: left;
+
+}
+.half-widthd{
+    width: 20px;
+    float: right;
+}
