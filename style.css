@@ -2,6 +2,49 @@ body{
     background-color: darkslategrey;
     font-family: 'Pushster', cursive;
 }
+
+.nav{
+    width:auto;
+    height:auto;
+    background-color: lightblue;
+    }
+    .nav ul li{
+    list-style:none;
+    display:inline-block;
+    position:relative;
+    
+    }
+    .nav ul li a{
+    display:block;
+    padding:20px 35px;
+    font-size:30px;
+    font-weight: bold;
+    color: rebeccapurple;
+    text-transform:uppercase;
+    text-decoration: none;
+    }
+    .nav ul li a:hover
+    {
+    color:blue;
+    background:steelblue;
+    
+    
+    }
+    .nav ul li ul{
+    
+    position:absolute;
+    background: pink;
+    left:-9999px;
+    
+    }
+    .nav ul li:hover ul{
+    left:0px;
+    
+    } 
+    .nav ul li ul li{
+        width:200px;
+        border-bottom:1px solid green;
+    }
 .center {
     display: block;
     margin-left: auto;
@@ -11,5 +54,9 @@ body{
 p{
     text-align: center;
     font-size: 30px ;
+    color: ghostwhite;
 
+}
+.title{
+;
 }
