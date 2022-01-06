@@ -70,22 +70,23 @@ align-items: center;
 }
 .hexagon{
     height: 0;
-    width: 150px;
-    border-top: 150px solid white;
-    border-right: 100px solid transparent;
-    border-left:100px solid transparent;
+    width: 80px;
+    border-top: 80px solid white;
+    border-right: 80px solid transparent;
+    border-left:85px solid transparent;
     position: absolute;
     margin: 150px;
+    display: inline;
 }
 .hexagon:before{
   position: absolute; 
   content: '';
   height: 0;
-  width: 150px;
-  border-bottom: 150px solid white;
-  border-right: 100px solid transparent;
-  border-left: 100px solid transparent;
-  bottom: 150px;
-  left: -100px;
+  width: 80px;
+  border-bottom: 80px solid white;
+  border-right: 80px solid transparent;
+  border-left: 85px solid transparent;
+  bottom: 79px;
+  left: -85px;
 
 }
