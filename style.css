@@ -59,3 +59,33 @@ p{
     color: ghostwhite;
 
 }
+
+}
+.container{
+background-color: white;
+height: 100vh;
+width: 100vh;
+display: flex;   
+align-items: center; 
+}
+.hexagon{
+    height: 0;
+    width: 150px;
+    border-top: 150px solid white;
+    border-right: 100px solid transparent;
+    border-left:100px solid transparent;
+    position: absolute;
+    margin: 150px;
+}
+.hexagon:before{
+  position: absolute; 
+  content: '';
+  height: 0;
+  width: 150px;
+  border-bottom: 150px solid white;
+  border-right: 100px solid transparent;
+  border-left: 100px solid transparent;
+  bottom: 150px;
+  left: -100px;
+
+}
