@@ -150,6 +150,7 @@ display: flex;
     border-style:solid;
     border-width:4px;
     border-color:white;
+    font-size: 17px;
  }
  
  .cabecalho-bloco {
@@ -172,5 +173,9 @@ display: flex;
     padding:6px;
     border-style:solid;
     border-width:2px;
+ }
+ .audio{
+    text-align: left;
+    border: rgb(14, 202, 155);
  }
  
