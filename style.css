@@ -120,3 +120,57 @@ align-items: center;
   transform: translateY(5px);
   
 }
+
+.single-experience{
+box-shadow: 10px 10px 40px white;
+border-radius: 5px;
+display: float;
+height: 80%;
+display: flex;
+}
+.pa{
+    font-size: 10px;
+    display: inline-block;
+}
+.corpo {<!--   www  .  j av  a 2  s.  com-->
+    font-family:'Roboto', sans-serif;
+    height:401px;
+    margin:201px 16px 31px 16px;
+    text-align:center;
+    display:flex;
+    flex:2;
+ }
+ 
+ .bloco {
+    flex:2;
+    display:inline-block;
+    margin:16px 6% 16px 6%;
+    width:301px;
+    height:351px;
+    border-style:solid;
+    border-width:4px;
+    border-color:white;
+ }
+ 
+ .cabecalho-bloco {
+    margin-bottom:11px;
+    border-bottom-style:solid;
+    border-width:3px;
+    border-color:rgba(207, 117, 43, 0.363);
+    color: white;
+   
+ }
+ 
+ input[type="file"] {
+    display:none;
+ }
+ 
+ #file {
+    font-weight:normal;
+    box-shadow:2px 2px 5px 2px;
+    color:white;
+    padding:6px;
+    border-style:solid;
+    border-width:2px;
+ }
+ 
