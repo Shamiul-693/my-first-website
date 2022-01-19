@@ -70,6 +70,7 @@ height: 100vh;
 width: 100vh;
 display: flex;   
 align-items: center; 
+
 }
 .hexagon{
     height: 0;
@@ -80,6 +81,8 @@ align-items: center;
     position: absolute;
     margin: 150px;
     display: inline;
+    font-weight: bold;
+    
 }
 .hexagon:before{
   position: absolute; 
@@ -91,6 +94,7 @@ align-items: center;
   border-left: 85px solid transparent;
   bottom: 79px;
   left: -85px;
+  
 
 }
 .link-button{
